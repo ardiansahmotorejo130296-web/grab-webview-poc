@@ -64,7 +64,9 @@ hr { border:none; border-top:1px solid rgba(255,255,255,0.1); margin:15px 0; }
     <div class="data-box" id="redirect-proof">
       &#128270; Detecting origin...<br>
       &#128279; Deep link: <code id="deeplink-display">grab://open?screenType=WEBVIEW&page=https://...</code><br>
+      &#128640; Trigger deep link: <code style="font-size:0.85em;">grab://open?screenType=WEBVIEW&page=https://ardiansahmotorejo130296-web.github.io/grab-webview-poc/</code><br>
       &#127758; Expected grab.com domain &rarr; LOADED: <span id="current-domain">checking...</span>
+      <div style="margin-top:8px;font-size:0.85em;">&#128073; ADB test: <code>adb shell am start -a android.intent.action.VIEW -d "grab://open?screenType=WEBVIEW&page=https://ardiansahmotorejo130296-web.github.io/grab-webview-poc/"</code></div>
     </div>
     <div class="demo-video">
       <div class="icon">&#127760; &rarr; &#9760;</div>
